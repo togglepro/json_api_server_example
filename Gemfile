@@ -9,4 +9,9 @@ group :development, :test do
   gem "spring"
   gem "rspec-rails", "~> 3.1.0"
   gem "spring-commands-rspec"
+  gem "factory_girl_rails", "~> 4.5.0"
+end
+
+group :test do
+  gem "shoulda-matchers", require: false
 end

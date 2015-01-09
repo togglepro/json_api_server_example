@@ -1,5 +1,5 @@
 require "jsonapi/resource"
 
 class SportResource < JSONAPI::Resource
-  attributes :name
+  attributes :id, :name
 end
